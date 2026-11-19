@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="L’atelier de français de la classe d’Arka Bhattacharya, French B SL.">
+  <title>Classe d’Arka Bhattacharya · French B SL</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="course.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main-content">Aller au contenu</a>
+<aside class="sidebar" id="sidebar">
+  <a class="brand" href="#accueil"><span class="crest" aria-hidden="true">AB</span><span><small>CLASSE DE</small><strong>Arka Bhattacharya</strong><span>French B SL</span></span></a>
+  <nav id="nav" aria-label="Rubriques"></nav>
+  <a class="sidebar-notes" href="#grammaire"><span aria-hidden="true">✎</span><span>Notes d’Arka<small>Grammaire et rédaction</small></span></a>
+  <footer class="side-footer"><span>Miltu Studios</span><button class="link" id="sourcesLink">Sources et démo</button></footer>
+</aside>
+<div class="workspace">
+  <header class="top">
+    <button class="quiet icon-button" id="menu" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="sidebar">☰</button>
+    <span id="breadcrumb"></span>
+    <div class="switch" aria-label="Changer de vue"><a href="#accueil" id="studentRole">Élève</a><a href="#professeur/apercu" id="teacherRole">Enseignant</a></div>
+    <div class="profile"><span class="avatar" aria-hidden="true" id="headerAvatar">AR</span><label for="learnerSelect" id="profileName" class="sr-only">Profil élève</label><select id="learnerSelect" aria-label="Profil élève"></select></div>
+  </header>
+  <main class="main" id="main-content" tabindex="-1"></main>
+  <footer class="foot"><span>Classe d’Arka Bhattacharya</span><span>French B SL · Démonstration Miltu Studios</span></footer>
+</div>
+<dialog id="dialog" aria-labelledby="dialogTitle"></dialog>
+<dialog id="sources" aria-labelledby="sourcesTitle">
+  <form method="dialog"><button class="close" aria-label="Fermer">×</button></form>
+  <h2 id="sourcesTitle">Sources et données de démonstration</h2>
+  <p>Les unités s’appuient sur les thèmes et les formats pédagogiques des chapitres 1A et 1B de <cite>French B Course Companion</cite>, Christine Trumper et John Israel, 2ᵉ éd., Oxford University Press, 2018. Les textes, consignes, réponses modèles, images et enregistrements sont originaux.</p>
+  <p>Les fiches adaptent les notes de grammaire fournies pour la classe d’Arka Bhattacharya. L’examen blanc est un entraînement abrégé destiné aux sessions 2027–2028. <a href="https://ibpublishing.ibo.org/exinst/apps/exinst/index.html?chapter=1&amp;doc=EX_instructions_2027_e&amp;part=9" target="_blank" rel="noopener">Consulter les instructions d’évaluation Language B de l’IB</a>.</p>
+  <p>Les profils et les exemples sont fictifs. Les devoirs, brouillons et commentaires restent dans ce navigateur. L’enregistrement oral reste disponible pendant la session de la page.</p>
+  <button class="quiet" id="resetDemo">Réinitialiser les données de démo</button>
+</dialog>
+</body>
+</html>
